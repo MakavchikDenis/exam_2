@@ -7,6 +7,7 @@ import java.net.*;
 
 public class Classmain {
     public static void main(String args[]) {
+        System.out.println("ИЗМЕНЕНИЯ!!");
         ServerSocket ser = null;
         Socket client = null;
         ObjectInputStream in = null;
@@ -27,8 +28,7 @@ public class Classmain {
             try {
                 if (ser != null) {
                     ser.close();
-                }
-                ;
+                };
                 if (client != null) {
                     client.close();
                 }
